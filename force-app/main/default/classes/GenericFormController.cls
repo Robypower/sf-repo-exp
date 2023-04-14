@@ -7,7 +7,8 @@
  */
 // dev 2 changes added
 public without sharing class GenericFormController {
-    
+    // dev 1 more changes
+    // additional work after sucessfully rebase branch with master
     static Map<String, Schema.SObjectField> allFields;
     static Map<String,ColumnField> fieldMap = new Map<String,ColumnField>();
     static Map<String,ColumnField> picklisFieldtMap = new Map<String,ColumnField>();
